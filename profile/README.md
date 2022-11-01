@@ -46,8 +46,11 @@ The figure given above, shows the annotation workflow, and the metrics involved 
 The work must always refer to Underground, Ground, constructed area and Scaffolding and other structures such that a meaningful table with a number of activities are shown as an activity map. 
 
 •	Work involved in the Underground
+
 •	Work involved in the Ground
+
 •	Work involved in a constructed area
+
 •	Work involved in Scaffolding
 
 While annotation, each activity must be tagged wherever possible with electricity, oil consumtpion or material used during the activity. 

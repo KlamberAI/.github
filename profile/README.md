@@ -1,4 +1,4 @@
-# KlamberAI
+# KlinterAI
 
 ## Purpose
 

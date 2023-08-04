@@ -1,0 +1,282 @@
+﻿---
+
+
+---
+
+<h1 id="synthetic-data">Synthetic Data</h1>
+<p><strong>Github</strong>: <a href="https://github.com/KlinterAI/SAS-SQL-Code-Management">https://github.com/KlinterAI/SAS-SQL-Code-Management</a></p>
+<p>Synthetic Data is used to demonstrated an Operational efficiency through Construction Site Monitoring.</p>
+<p>The 3 major outcomes of the purpose of Synthetic Data is to engage in:</p>
+<ul>
+<li>Time of Activity Measurement</li>
+<li>Activity-Codes Recognition</li>
+<li>Incident Monitoring</li>
+</ul>
+<h3 id="typical-incidents-at-construction-site">Typical Incidents at Construction Site</h3>
+<p>A list of incidents at the Construction Site is given here corresponding to:</p>
+<ul>
+<li>Delays</li>
+<li>Issues</li>
+<li>Repairs</li>
+<li>Risk</li>
+<li>Incidents, and</li>
+<li>Other Issues</li>
+</ul>
+<p><img src="https://live.staticflickr.com/65535/53047792849_4e27ed3b50.jpg" alt="Incidents at Construction Site"></p>
+<p>With Activity Recognition: A List of such Activities are listed as:</p>
+<ul>
+<li>Soil Extraction</li>
+<li>Dropping and Loading</li>
+<li>Picking</li>
+<li>Driving and Earthmoving</li>
+<li>Picking</li>
+</ul>
+<p><img src="https://live.staticflickr.com/65535/53093167718_4460306bc9_b.jpg" alt="activity-recognition Activities"></p>
+<p>These activities can be collectively classified as Earth-moving, as per the Gantt Chart Below:</p>
+<p><img src="https://live.staticflickr.com/65535/53049092706_248fa179ec_h.jpg" alt="Gantt Chart of Activities Recognized"></p>
+<h3 id="pathways-to-costing">Pathways to Costing</h3>
+<p>Once the material purchase order database including other purchase orders are scheduled in the plan, the costing performed towards the minimization of material wastage impacts the start of the project cycle to the site work.</p>
+<p>By impacting the costing within the Procurement Department and the Construction Site Work, there is transfer of information between departments. This improves error-checking and validation. It also allows the Site Project Manager to schedule imports appropriately.</p>
+<p><img src="https://live.staticflickr.com/65535/52802281847_f7bec60265_h.jpg" alt="Pathways to Costing"></p>
+<h3 id="operational-time-and-analysis">Operational Time and Analysis</h3>
+<p>Percentage contribution: is relevant to the time taken:</p>
+<ul>
+<li>Relevant to each Risk detected by EquipAny mobile-app</li>
+<li>At every risk/issue into the register, the object or a delay recorded leading to the risk/issue, is also part of the register</li>
+</ul>
+<p><img src="https://live.staticflickr.com/65535/53049511255_ac1623d770_b.jpg" alt="Delays and Issues by Objects Detected"></p>
+<p><img src="https://live.staticflickr.com/65535/53049511260_193d3c6d87_b.jpg" alt="Risk and Incidents Distribution in Time"></p>
+<h4 id="synthetic-data-generated-using-mockaroo.com">1. Synthetic Data Generated using <a href="mockaroo.com">mockaroo.com</a></h4>
+<p><strong>IoT.csv</strong></p>
+<p>The IoT Metadata that helps us understand the Operational Time of each activity when connected to the IoT Metadata relationships.</p>
+
+<table>
+<thead>
+<tr>
+<th>SERIAL_NO</th>
+<th>EPC_NO</th>
+<th>MANUFACTURER</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>EPC-2345</td>
+<td>Tagcat</td>
+</tr>
+<tr>
+<td>2</td>
+<td>EPC-2345</td>
+<td>Vinder</td>
+</tr>
+<tr>
+<td>3</td>
+<td>EPC-8890</td>
+<td>Omba</td>
+</tr>
+<tr>
+<td>4</td>
+<td>EPC-0987</td>
+<td>Divape</td>
+</tr>
+<tr>
+<td>5</td>
+<td>EPC-4563</td>
+<td>Voonix</td>
+</tr>
+<tr>
+<td>6</td>
+<td>EPC-4563</td>
+<td>Photojam</td>
+</tr>
+<tr>
+<td>7</td>
+<td>EPC-6839</td>
+<td>Rhynyx</td>
+</tr>
+<tr>
+<td>8</td>
+<td>EPC-0385</td>
+<td>Wikizz</td>
+</tr>
+<tr>
+<td>9</td>
+<td>EPC-4529</td>
+<td>Janyx</td>
+</tr>
+<tr>
+<td>10</td>
+<td>EPC-4529</td>
+<td>Kwilith</td>
+</tr>
+</tbody>
+</table><h4 id="synthetic-data-generated-using-mockaroo.com-1">2. Synthetic Data Generated using <a href="mockaroo.com">mockaroo.com</a></h4>
+<p><strong>GENERAL.csv</strong></p>
+<p>The entire data representing the IoT Database in an Un-normalized form.</p>
+
+<table>
+<thead>
+<tr>
+<th>SERIAL_NO</th>
+<th>MATERIAL_PO</th>
+<th>EQUIPMENT_ID</th>
+<th>MANUFACTURER</th>
+<th>EPC_NO</th>
+<th>SNMP_TOKEN</th>
+<th>ACTIVITY_ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>8896445922</td>
+<td>Tagcat</td>
+<td>EPC-2345</td>
+<td>11.136.66.28</td>
+<td>7-100 -   Damproofing and Waterproofing</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1</td>
+<td>1713765551</td>
+<td>Vinder</td>
+<td>EPC-2345</td>
+<td>2.173.141.119</td>
+<td>2-625 -   Retaining Wall Drainage Piping</td>
+</tr>
+<tr>
+<td>3</td>
+<td>0</td>
+<td>4586149221</td>
+<td>Omba</td>
+<td>EPC-2345</td>
+<td>171.90.163.68</td>
+<td>13-260 -   Sludge Conditioning Systems</td>
+</tr>
+<tr>
+<td>4</td>
+<td>0</td>
+<td>6752521468</td>
+<td>Divape</td>
+<td>EPC-2345</td>
+<td>133.192.83.143</td>
+<td>15-200 -   Process Piping</td>
+</tr>
+<tr>
+<td>5</td>
+<td>0</td>
+<td>384443575</td>
+<td>Voonix</td>
+<td>EPC-4529</td>
+<td>142.81.68.233</td>
+<td>9-600 -   Flooring</td>
+</tr>
+<tr>
+<td>6</td>
+<td>0</td>
+<td>4965364163</td>
+<td>Photojam</td>
+<td>EPC-4529</td>
+<td>182.34.205.236</td>
+<td>1-530 -   Temporary Construction</td>
+</tr>
+<tr>
+<td>7</td>
+<td>0</td>
+<td>8806156691</td>
+<td>Rhynyx</td>
+<td>EPC-4529</td>
+<td>197.136.85.223</td>
+<td>11-050 -   Library Equipment</td>
+</tr>
+<tr>
+<td>8</td>
+<td>1</td>
+<td>3573402445</td>
+<td>Wikizz</td>
+<td>EPC-4529</td>
+<td>209.218.86.251</td>
+<td>10-750 -   Telephone Specialties</td>
+</tr>
+<tr>
+<td>9</td>
+<td>1</td>
+<td>9942900861</td>
+<td>Janyx</td>
+<td>EPC-4563</td>
+<td>207.142.0.216</td>
+<td>2-823 -   PVC Fences and Gates</td>
+</tr>
+<tr>
+<td>10</td>
+<td>0</td>
+<td>4151283307</td>
+<td>Kwilith</td>
+<td>EPC-4563</td>
+<td>223.170.137.108</td>
+<td>9-100 -   Metal Support Assemblies</td>
+</tr>
+</tbody>
+</table><h4 id="synthetic-data-generated-using-mockaroo.com-2">3. Synthetic Data Generated using <a href="mockaroo.com">mockaroo.com</a></h4>
+<p><strong>IoT Cost Code.csv</strong></p>
+<p>The cost-codes of the IoT devices in the machinery.</p>
+
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>ActivityCode</th>
+<th>TimeDetectionStart</th>
+<th>Days</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>16-500 - Lighting</td>
+<td>10/01/2023 09:20</td>
+<td>10</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>2-300 - Earthwork</td>
+<td>19/01/2023 09:20</td>
+<td>15</td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>2-240 - Dewatering</td>
+<td>31/01/2023 09:20</td>
+<td>14</td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td>11-190 - Detention Equipment</td>
+<td>12/02/2023 09:20</td>
+<td>17</td>
+<td></td>
+</tr>
+<tr>
+<td>33</td>
+<td>17-020 - Insurance</td>
+<td>24/02/2023 09:20</td>
+<td>13</td>
+<td></td>
+</tr>
+<tr>
+<td>41</td>
+<td>2-220 - Site Demolition</td>
+<td>08/03/2023 09:20</td>
+<td>13</td>
+<td></td>
+</tr>
+</tbody>
+</table><blockquote>
+<p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote>
+
